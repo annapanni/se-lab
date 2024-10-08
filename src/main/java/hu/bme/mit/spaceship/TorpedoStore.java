@@ -36,7 +36,8 @@ public class TorpedoStore {
       //  the caller shouldn't fire more torpedos then it has
       //  therefore, the argument "numberOfTorpedos" is invalid
       throw new IllegalArgumentException("numberOfTorpedos");
-
+    }
+    
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
